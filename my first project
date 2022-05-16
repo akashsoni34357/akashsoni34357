@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<link rel="stylesheet" href="style.css">
+
+    <title>PSKK</title>
+  </head>
+  <body class="body">
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">PSKK</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+         ALL JEWELLERY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">GOLD</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">SILVER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">COLLECTION</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                UPDATE
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Bank Detail</a></li>
+                <li><a class="dropdown-item" href="#">Live rate</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Economic calender</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">CONTACT-US</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">SUBMIT</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image.on top.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="image.on top3.webp" class="l1" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="image.on top2.webp" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<h1 class="h1">SHOP BY CATEGORY</h1>
+
+<div class="container text-center ">
+  <div class="row">
+    <div class="col">
+      <div class="card-img-top rounded-circle" style="width: 15rem;">
+        <img src="rings.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="ring"></h5>
+          <p class="card-text">DUIAMOND AND GOLD RING.</p>
+          <a href="#" class="btn btn-primary">SEE SIMILAR</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card-img-top rounded-circle" style="width: 15rem;">
+        <img src="pendant.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">DUIAMOND AND GOLD PENDANT.</p>
+          <a href="#" class="btn btn-primary">SEE SIMILAR</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card-img-top rounded-circle" style="width: 15rem;">
+        <img src="mangalsutra.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">DUIAMOND AND GOLD MANGALSUTRA.</p>
+          <a href="#" class="btn btn-primary">SEE SIMILAR</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-2">
+    <div class="col">
+      <div class="card-img-top rounded-circle" style="width: 15rem;">
+        <img src="necklace.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">DUIAMOND AND GOLD NECKLACE.</p>
+          <a href="#" class="btn btn-primary">SEE SIMILAR</a>
+        </div>
+      </div>
+   </div>
+    <div class="col">
+      <div class="card-img-top rounded-circle" style="width: 15rem;">
+        <img src="EARRINGS.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">DUIAMOND AND GOLD EARRINGS.</p>
+          <a href="#" class="btn btn-primary">SEE SIMILAR</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card-img-top rounded-circle" style="width: 15rem;">
+        <img src="bangles.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">DUIAMOND AND GOLD BABGLES.</p>
+          <a href="#" class="btn btn-priamary">SEE SIMILAR</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h1 class="h1">SHOP BY GENDER</h1>
+
+
+<div class="row">
+  <div class="column">
+    <img src="men.webp" alt="Snow" style="width:100%" >
+    <h4 class="h4">MEN</h4>
+  </div>
+  <div class="column">
+    <img src="women.webp" alt="Forest" style="width:100%" >
+    <h4 class="h4">WOMEN</h4>
+  </div>
+  <div class="column">
+    <img src="kids.webp" alt="Mountains" style="width:100%">
+    <h4 class="h4">KIDS</h4>
+  </div>
+</div
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+<img class="center" src="h1img.jpg" alt="xyz" >
+
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <img class="img6626" src="img.6626.webp" alt="">
+       <h6>RS 6626</h6>
+      </div>
+      <div class="col">
+          <img class="img15846 " src="img.15846.webp" alt="">
+           <h6>RS 15846</h6>
+      </div>
+      <div class="col">
+        <img class="img22381" src="img.22381.webp" alt="">
+        <h6 >RS 22381</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-2">
+      <div class="col">
+        <img class="img26356" src="img.26356.webp" alt="">
+       <h6 class="h26">  RS 26356</h6>
+      </div>
+      <div class="col">
+        <img class="img34067" src="img.34067.webp" alt="">
+        <h6 class="h34">RS 34067</h6>
+      </div>
+      <div class="col">
+        <img class="img55104 " src="img.55104.webp" alt="">
+        <h6 class="h55">RS 55104</h6>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span><p>Get connected with us on social networks:</p></span>
+  <p class="p11">  Discover the precious and beautiful jewellery <br>from an exclusive range of Gold and Diamond <br>jewellery collection. Explore and shop luxury <br>
+    jewellery designs from our showroom.</p>
+
+ <img class="hand"src="foldedhand.jpg" alt="">
+
+
+
+
+    </div>
+    <!-- Left -->
+  <img class="logo" src="mylogo.jpg" alt="">
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>PSKK
+          </h6>
+          <p>
+            <h5 class="h5">100% ORIGINAL</h5>
+<h6 >All products are original and go through strict quality check.</h6>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">DIAMOND</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">GOLD</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">SILVER</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">STORE</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">PAYMENT OPTIONS</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">TRACK ORDER</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">OFFER & CONTEST DETAILS</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">HELP</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p><i class="fas fa-home me-3"></i> New Delhi, 110086, INDIA</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            akashsoni34357@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 91 979 3322 903</p>
+          <p><i class="fas fa-print me-3"></i> + 91 637 6862 576</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">pskk.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
